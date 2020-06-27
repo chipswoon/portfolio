@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: src/styles/global.scss
-  label: Global Styling
 - type: heading
   label: Content
 - type: directory
@@ -25,6 +22,9 @@ sections:
   label: Info Page
 - type: heading
   label: General Config
+- type: document
+  path: src/styles/global.scss
+  label: Global Styling
 - type: document
   path: config.json
   label: Site Info
