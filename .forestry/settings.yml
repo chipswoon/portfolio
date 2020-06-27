@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/styles/global.scss
   label: Global Styling
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
